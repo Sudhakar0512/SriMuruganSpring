@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://sudhakars0512:Sudhakar0512@cluster0.gmztkop.mongodb.net/?retryWrites=true&w=majority
+#      uri: mongodb+srv://sudhakars0512:Sudhakar0512@srimurugancluster.hfaopiz.mongodb.net/?retryWrites=true&w=majority
+      database: productdb
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
